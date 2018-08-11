@@ -10,7 +10,6 @@ async function main() {
                 useNewUrlParser: true,
             });
         
-        
         const bancoDeDados = clienteDoBanco.db('nerdzao-rick-and-morty');
         const personagens = await bancoDeDados.collection('characters');
     
